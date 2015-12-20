@@ -1,0 +1,13 @@
+# Site settings
+title: 훌륭한 민주주의 앱
+title_en: Awesome Democracy Apps
+description: >
+  훌륭한 민주주의 앱들을 소개합니다.
+baseurl: '/awesome-democracy-apps' # the subpath of your site, e.g. /blog/
+url: '' # the base hostname & protocol for your site
+permalink: pretty
+timezone: Asia/Seoul
+
+locale: ko
+
+exclude: [ Gemfile, Gemfile.lock, README.md ]
