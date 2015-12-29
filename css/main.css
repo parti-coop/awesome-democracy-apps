@@ -1,14 +1,23 @@
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);
-
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
 }
 
 body, h1, h2, h3, table, div, p { 
-  font-family: 'Roboto', 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+  font-family: Helvetica, Arial, Sans-Serif;
   line-height: 1.6;
 }
+
+.wf-active body,
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active table,
+.wf-active div,
+.wf-active p { 
+  font-family: 'Roboto', 'Spoqa Han Sans', 'Spoqa Han Sans JP';
+  line-height: 1.6;
+}
+
 
 h3 {
   line-height: 1.3;
