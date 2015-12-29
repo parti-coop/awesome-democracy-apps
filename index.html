@@ -17,6 +17,7 @@ layout: default
 
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="card card-block">
+                    {% if app.country %}<small class="pull-right text-muted">{{ app.country }}{% endif %}</small>
                     <h3 class="card-title">{{ app.title }}</h3>
                     <p class="card-text">{{ app.excerpt }}</p>
                     <a target="_blank" href="{{ app.url }}" class="btn btn-secondary text-muted">바로가기</a>
@@ -25,6 +26,9 @@ layout: default
                     {% endif %}
                     {% if app.facebook %}
                     <a target="_blank" href="{{ app.facebook }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-facebook-official"></i></a>
+                    {% endif %}
+                    {% if app.twitter %}
+                    <a target="_blank" href="{{ app.twitter }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-twitter"></i></a>
                     {% endif %}
                 </div>
             </div>
