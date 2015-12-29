@@ -1,19 +1,18 @@
-title,url,excerpt,source,thumbnail,facebook
+title,url,excerpt,source,thumbnail,facebook,twitter,country,status
 Loomio,https://www.loomio.org,"루미오는 모두 함께 결정을 내릴 수 있는 가장 쉬운 방법입니다.
-루미오는 사람들이 어디에 있더라도 단체나 커뮤니티가 논의를 행동으로 옮길 수 있도록 지원합니다.",https://github.com/loomio/loomio,,
-DemocracyOS,http://democracyos.org,"우리는 21세기 시민으로 15세기 정보 기술에 기반한 19세기에 고안한 사회 구조와 상호 작용하려고 최선을 다하고 있습니다.
-이제 좀 물어봅시다: “인터넷 시대를 위한 민주주의는 뭘까요?”
-피아 만치니
-데모그러시오에스, 테드 글로벌 2014",https://github.com/DemocracyOS/democracyos,,
-LiquidFeedback,http://liquidfeedback.org,리퀴드 피드백은 제안을 개발하고 의사 결정을 위한 인터넷 플랫폼을 제공하고는 오픈소스 소프트웨어입니다.,http://www.public-software-group.org/mercurial,,
-Agora Voting,https://agoravoting.com/,모든 투표가 중요하니까요.,https://github.com/agoravoting/agoravoting-project,,
-Brigade,https://www.brigade.com/,민주주의는 당신이 일어설 때 시작됩니다.,https://github.com/brigade,,
-Countable,https://www.countable.us,몇 분만에 국회에 영향력을 행사하세요.,,,
+루미오는 사람들이 어디에 있더라도 단체나 커뮤니티가 논의를 행동으로 옮길 수 있도록 지원합니다.",https://github.com/loomio/loomio,,https://www.facebook.com/Loomio,https://twitter.com/loomio,뉴질랜드,
+DemocracyOS,http://democracyos.org,"우리는 21세기 시민으로 15세기 정보 기술에 기반한 19세기에 고안한 사회 구조와 상호 작용하려고 최선을 다하고 있습니다. 이제 좀 물어봅시다: “인터넷 시대를 위한 민주주의는 뭘까요?” - 피아 만치니, 데모그러시오에스, 테드 글로벌 2014",https://github.com/DemocracyOS/democracyos,,,https://twitter.com/democracyos,스페인,
+LiquidFeedback,http://liquidfeedback.org,리퀴드 피드백은 제안을 개발하고 의사 결정을 위한 인터넷 플랫폼을 제공하고는 오픈소스 소프트웨어입니다.,http://www.public-software-group.org/mercurial,,,,독일,
+Agora Voting,https://agoravoting.com/,모든 투표가 중요하니까요.,https://github.com/agoravoting/agoravoting-project,,https://www.facebook.com/AgoraVoting/,,스페인,
+Brigade,https://www.brigade.com/,민주주의는 당신이 일어설 때 시작됩니다.,https://github.com/brigade,,,,미국,
+Countable,https://www.countable.us,몇 분만에 국회에 영향력을 행사하세요.,,,,,미국,
+Represent Civic Information API,http://represent.opennorth.ca,캐나다 주소나 우편번호로 모든 수준의 정부의 선출직 공무원과 선거구를 찾을 수 있습니다.,https://github.com/opennorth/represent-canada,,,,캐나다,
+Citizen Budget,http://www.citizenbudget.com,의사 결정 과정에 주민을 참여시키고 시민 참여에 대한 지방 자치 단체의 반응을 보여줄 수 있는 강력한 온라인 도구입니다.,https://github.com/opennorth/citizenbudgetapp.com,,,,캐나다,
+Consul,http://decide.madrid.es,시민 참여 및 열린 정부를 위한 소프트웨어,https://github.com/consul/consul,,,,스페인,
+Incoma,http://incoma.org,수천명의 사람들이 동시에 활발히 대화할 수 있도록 하는 토론 플랫폼으로 진정한 전세계 집단 지성을 지향합니다.,https://github.com/Incoma/Incoma,,,,스페인,
+Fix My Street,https://www.fixmystreet.com,"FixMyStreet does send your reports direct to your local council. We also publish them online, so that others in the community can read, discuss, and offer advice where needed.",https://github.com/mysociety/fixmystreet,,,,영국,
 정친(政親),http://www.jungch.in/,"내게 딱맞는 국회의원 찾기
-국회의원 300명 중에 당신의 정친(政親)은 누굴까요? 나경원? 이완구? 문재인? 안철수? 정친(政親)은 5분 안으로 300명의 국회의원 중 당신과 가장 잘 맞는 정치인을 찾아드립니다.",https://github.com/djstudy/jungchi,,
-19대 국회 전체의원 법안발의 정보,http://kbill.org,우리동내 국회의원이나 여러분들이 좋아 하시는 의원이 어떤 법안을 발의했을까요? 올 한해 어떤 법안이 처리 되었는지 아시나요? 의원별 발의 법안을 한눈에 보여 드립니다!,https://github.com/hunkim/assembly,,https://www.facebook.com/kbill.org
-역사교과서 국정화 반대 서명,http://www.historysign.kr,역사교과서 국정화를 반대합니다. 서명 페이지를 제안하고 직접 서명할 수 있습니다.,,,
-Represent Civic Information API,http://represent.opennorth.ca,캐나다 주소나 우편번호로 모든 수준의 정부의 선출직 공무원과 선거구를 찾을 수 있습니다.,https://github.com/opennorth/represent-canada,,
-Citizen Budget,http://www.citizenbudget.com,의사 결정 과정에 주민을 참여시키고 시민 참여에 대한 지방 자치 단체의 반응을 보여줄 수 있는 강력한 온라인 도구입니다.,https://github.com/opennorth/citizenbudgetapp.com,,
-Consul,http://decide.madrid.es,시민 참여 및 열린 정부를 위한 소프트웨어,https://github.com/consul/consul,,
-Incoma,http://incoma.org,수천명의 사람들이 동시에 활발히 대화할 수 있도록 하는 토론 플랫폼으로 진정한 전세계 집단 지성을 지향합니다.,https://github.com/Incoma/Incoma,,
+국회의원 300명 중에 당신의 정친(政親)은 누굴까요? 나경원? 이완구? 문재인? 안철수? 정친(政親)은 5분 안으로 300명의 국회의원 중 당신과 가장 잘 맞는 정치인을 찾아드립니다.",https://github.com/djstudy/jungchi,,,,우리나라,
+19대 국회 전체의원 법안발의 정보,http://kbill.org,우리동내 국회의원이나 여러분들이 좋아 하시는 의원이 어떤 법안을 발의했을까요? 올 한해 어떤 법안이 처리 되었는지 아시나요? 의원별 발의 법안을 한눈에 보여 드립니다!,https://github.com/hunkim/assembly,,https://www.facebook.com/kbill.org,,우리나라,
+역사교과서 국정화 반대 서명,http://www.historysign.kr,역사교과서 국정화를 반대합니다. 서명 페이지를 제안하고 직접 서명할 수 있습니다.,,,,,우리나라,
+"제주2공항개발 온평리와 난산리,신산리,수산리 주민권익찾기",http://cafe.daum.net/onpyeongpeople,가만있으면 안됩니다. 권익은 찾는 주민에게만 생깁니다.,,,,,우리나라,
