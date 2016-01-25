@@ -19,7 +19,7 @@ layout: default
                 <div class="card card-block">
                     {% if app.country %}<small class="pull-right text-muted">{{ app.country }}{% endif %}</small>
                     <h3 class="card-title">{{ app.title }}</h3>
-                    <p class="card-text">{{ app.excerpt | markdownify }}</p>
+                    <p class="card-text">{{ app.excerpt | replace:'\n', '<br>' | markdownify }}</p>
                     <a target="_blank" href="{{ app.url }}" class="btn btn-secondary text-muted">바로가기</a>
                     {% if app.source %}
                     <a target="_blank" href="{{ app.source }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-github"></i></a>
