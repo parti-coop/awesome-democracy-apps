@@ -1,7 +1,7 @@
 title,url,excerpt,source,thumbnail,facebook,twitter,country,status
 Loomio,https://www.loomio.org,"루미오는 모두 함께 결정을 내릴 수 있는 가장 쉬운 방법입니다.
 루미오는 사람들이 어디에 있더라도 단체나 커뮤니티가 논의를 행동으로 옮길 수 있도록 지원합니다.",https://github.com/loomio/loomio,,https://www.facebook.com/Loomio,https://twitter.com/loomio,뉴질랜드,
-DemocracyOS,http://democracyos.org,"우리는 21세기 시민으로 15세기 정보 기술에 기반한 19세기에 고안한 사회 구조와 상호 작용하려고 최선을 다하고 있습니다. 이제 좀 물어봅시다: “인터넷 시대를 위한 민주주의는 뭘까요?” - 피아 만치니, 데모그러시오에스, 테드 글로벌 2014",https://github.com/DemocracyOS/democracyos,,,https://twitter.com/democracyos,스페인,
+DemocracyOS,http://democracyos.org,"우리는 21세기 시민으로 15세기 정보 기술에 기반한 19세기에 고안한 사회 구조와 상호 작용하려고 최선을 다하고 있습니다. 이제 좀 물어봅시다: “인터넷 시대를 위한 민주주의는 뭘까요?”",https://github.com/DemocracyOS/democracyos,,,https://twitter.com/democracyos,스페인,
 LiquidFeedback,http://liquidfeedback.org,리퀴드 피드백은 제안을 개발하고 의사 결정을 위한 인터넷 플랫폼을 제공하고는 오픈소스 소프트웨어입니다.,http://www.public-software-group.org/mercurial,,,,독일,
 Agora Voting,https://agoravoting.com/,모든 투표가 중요하니까요.,https://github.com/agoravoting/agoravoting-project,,https://www.facebook.com/AgoraVoting/,,스페인,
 Brigade,https://www.brigade.com/,민주주의는 당신이 일어설 때 시작됩니다.\n[민주주의의 시작은 입장 표명! 브리게이드](https://medium.com/p/c5dae989d7a4),https://github.com/brigade,,,,미국,
@@ -20,5 +20,11 @@ Sexy MP,http://sexymp.co.uk/,의회에서 차단된 가장 유명한 웹사이�
 2012 투표 대잔치,http://voteaward.com,"나라의 운을 결정하는 이벤트인데, 우리가 할 수 있는 거라곤 지켜보다가 투표하는 것 뿐. 뭔가 아쉽지 않나요? 그래서 준비했습니다!",https://github.com/peace-code/voteaward,,,,우리나라,
 투표 축제,https://www.facebook.com/2014voteaction/,2016 투표축제 공식 카페입니다^^,,,,,우리나라,
 모바일 정당 창당 제안,http://discuss.center,리퀴드피드백시스템에 오신 것을 환영합니다.,http://www.public-software-group.org/mercurial,,,,우리나라,
-균형 직접 민주주의 의사결정 시스템,http://wp.ncross.net,"내 의사를 좀더 쉽게 표현할 수 있고, 결정과정도 투명하게 처리되는 시스템! \n프로토타입: <http://h.ncross.net>\n<http://wp.ncross.net/about/>",,,,,우리나라,
+균형 직접 민주주의 의사결정 시스템,http://wp.ncross.net/%EC%84%9C%EC%9A%B8%EC%8B%9C%EC%97%90-%EC%9B%90%EC%A0%84%EA%B1%B4%EC%84%A4/,"내 의사를 좀더 쉽게 표현할 수 있고, 결정과정도 투명하게 처리되는 시스템! \n[프로토타입](http://h.ncross.net){: target='_blank'} / [균형 의사결정 시스템 안내 ppt](https://docs.google.com/presentation/d/1dUINV3SCB12lVH1TrleJ-pfnubNe15EILMzdxaub8LA){: target='_blank'} / [동영상](https://www.youtube.com/playlist?list=PLY0pC71h-fFRV4zFJf_Cu6O2g6ZV2zRXQ){: target='_blank'}",,,,,우리나라,
 시민정치마당,http://cpmadang.org/?q=candi-list&field_vote_zone_tid=_none&field_party_tid=_none,국회의원 예비후보자 전체 리스트와 각 후보별로 평가와 댓글을 달 수 있는 사이트라고 합니다. 현재 테스트 중이라고 하는데 한번씩 방문해 보시고 테스트 부탁드린다고 하네요. ,,,,,우리나라,
+카누,http://canoe.parti.xyz/,"여기서 카누는 커피가 아니라 작은 배를 말하고요, ""일상 민주주의""와 ""민주적인 조직 구조""를 실현하려는 그룹을 위한 서비스입니다. [카누 소개](https://github.com/parti-xyz/canoe-web/wiki){: target=""_blank""}",https://github.com/parti-xyz/canoe-web,,https://www.facebook.com/parti.xyz/,,우리나라,
+vvitness,http://www.vvitness.kr,"""수많은 시점이 모여 하나의 뉴스가 된다.""\n12월 19일, 3차 민중총궐기가 있습니다. \n비트니스가 독립 미디어 미스핏츠가 기록한 1,2차 민중총궐기의 현장을 시공간의 맥락을 담아 재구성했습니다.",,,,,우리나라,
+정치넷,http://www.정치.net,"""한국정치의 대동여지도""를 추구합니다.\n정치넷에 개제되는 모든 뉴스는 구글뉴스 에서 제공되는 그대로 자동개제 됩니다.\n정치넷은 일절 편집에 관여하지 않습니다.",,,,,우리나라,
+움직여,http://movenow.kr,시민혁명당'에서 도입한 토론 및 의사결정 시스템,,,,,우리나라,
+정치바,https://www.facebook.com/polibar21/,"한겨레 정치팀이 정치 전문 사이트 ‘정치BAR’를 엽니다. 술 파는 바? 아닙니다. 
+한겨레 기자들이 생산하는 ‘조금 다른’ 정치 콘텐츠를 파는 바입니다. [정치바 소개](http://www.hani.co.kr/arti/politics/polibar/about.html){: target=""blank""}",,,https://www.facebook.com/polibar21/,,우리나라,
