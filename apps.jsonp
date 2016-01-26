@@ -5,10 +5,10 @@ callback([
   {
     "title": "{{ app.title }}",
     "url": "{{ app.url }}",
-    "excerpt": "{{ app.excerpt }}",
-    "source": "{{ app.source}}",
+    "excerpt": "{{ app.excerpt | replace:'\n', '<br>' | markdownify }}",
+    "source": "{{ app.source }}",
     "thumbnail": "{{ app.thumbnail }}",
     "facebook": "{{ app.facebook }}"
-  } {% unless forloop.last %},{% endunless%}
+  } {% unless forloop.last %},{% endunless %}
 {% endfor %}
 ])
