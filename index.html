@@ -6,39 +6,37 @@ layout: default
   <div class="container">
     <h1 class="jumbotron-heading">{{ site.title }}<br>{{ site.title_en }}</h1>
     <p>&nbsp;</p>
-    <a href="http://goo.gl/forms/k9k7EruqbP" target="_blank" class="btn btn-secondary text-muted">2016 총선 특집!</a>
+    <a href="http://goo.gl/forms/k9k7EruqbP" target="_blank" class="btn btn-lg btn-secondary text-muted">2016 총선 특집!</a>
   </div>
 </section>
 
 <div class="album text-muted">
-    <div class="container">
-
-        <div class="row">
-
-            {% for app in site.data.apps %}
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="card card-block">
-                    {% if app.country %}<small class="pull-right text-muted">{{ app.country }}{% endif %}</small>
-                    <h3 class="card-title">{{ app.title }}</h3>
-                    <p class="card-text">{{ app.excerpt | replace:'\n', '<br>' | markdownify }}</p>
-                    <a target="_blank" href="{{ app.url }}" class="btn btn-secondary text-muted">바로가기</a>
-                    {% if app.source %}
-                    <a target="_blank" href="{{ app.source }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-github"></i></a>
-                    {% endif %}
-                    {% if app.facebook %}
-                    <a target="_blank" href="{{ app.facebook }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-facebook-official"></i></a>
-                    {% endif %}
-                    {% if app.twitter %}
-                    <a target="_blank" href="{{ app.twitter }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-twitter"></i></a>
-                    {% endif %}
-                </div>
-            </div>
-
-            {% endfor %}
-
+  <div class="container">
+    <div class="row">
+      {% for app in site.data.apps %}
+      <div class="col-sm-6 col-lg-4 grid-unit">
+        <div class="card">
+          <div class="card-block">
+            {% if app.country %}<span class="label label-pill label-default text-right clearfix">{{ app.country }}{% endif %}</span>
+            <h3 class="card-title">{{ app.title }}</h3>
+            <p class="card-text">{{ app.excerpt | replace:'\n', '<br>' | markdownify }}</p>
+            <p class="links">
+              <a target="_blank" href="{{ app.url }}" class="btn btn-secondary text-muted"><i class="fa fa-link"></i> 바로가기</a>
+              {% if app.source %}
+              <a target="_blank" href="{{ app.source }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-github"></i></a>
+              {% endif %}
+              {% if app.facebook %}
+              <a target="_blank" href="{{ app.facebook }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-facebook-official"></i></a>
+              {% endif %}
+              {% if app.twitter %}
+              <a target="_blank" href="{{ app.twitter }}" class="btn btn-secondary text-muted"><i class="fa fa-lg fa-twitter"></i></a>
+              {% endif %}
+            </p>
+          </div>
         </div>
-
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
 

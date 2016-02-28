@@ -1,17 +1,13 @@
-body {
-  min-height: 75rem; /* Can be removed; just added for demo purposes */
-}
-
 * {
   font-family: Helvetica, Arial, Sans-Serif;
   line-height: 1.6;
+  font-weight: 300;
 }
 
 .wf-active * {
-  font-family: 'Roboto', 'Spoqa Han Sans', 'Spoqa Han Sans JP';
+  font-family: 'Spoqa Han Sans';
   line-height: 1.6;
 }
-
 
 h3 {
   line-height: 1.3;
@@ -68,15 +64,19 @@ h3 {
 }
 
 .album {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 1.5em 0;
   background-color: #f7f7f7;
 }
 
 .card {
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 0;
+  padding: .3em;
+  transition: all .5s;
+}
+
+.card:hover {
+  -moz-box-shadow:  0 1px 15px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow:  0 1px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card > img {
@@ -85,6 +85,14 @@ h3 {
 
 .card-text {
   font-size: 85%;
+}
+
+.links {
+  margin-bottom: 0;
+}
+
+.links a {
+  margin: 0 10px 10px 0;
 }
 
 footer {
@@ -96,3 +104,8 @@ footer p {
   margin-bottom: .25rem;
 }
 
+@media (max-width:768px) {
+  .col-sm-6 {
+    width: 100%;
+  }
+}

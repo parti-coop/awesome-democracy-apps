@@ -10,16 +10,18 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>
-	WebFont.load({
-  	google: {
-    	families: ['Roboto:400,100,700']
-  	},
-  	custom: {
-  		families: ['Spoqa Han Sans', 'FontAwesome'],
-  		urls: ['//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css']
-  	}
+  $(function(){
+    WebFont.load({
+      custom: {
+        families: ['Spoqa Han Sans', 'FontAwesome'],
+        urls: ['//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css']
+      },
+     active: function(){ $('.row').masonry('layout');}
+    });
+
+    $('.row').masonry({
+      itemSelector: '.grid-unit'
+    });
   });
-  $('.row').masonry({
-    itemSelector: '.col-md-4'
-  });
+
 </script>
