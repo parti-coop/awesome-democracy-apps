@@ -71,6 +71,7 @@ h3 {
 .card {
   padding: .3em;
   transition: all .5s;
+  margin: 15px 0;
 }
 
 .card:hover {
